@@ -45,7 +45,7 @@ Driven by CMOS inverters and a **non-overlapping clock generator** to avoid shoo
    - Two half-bridge drivers (Figure 4 in lab manual)
    - Speaker model (Figure 6)
 2. Verify:
-3. [OUTPUT]()
+3. [OUTPUT](https://github.com/Sayantan-Maity-hub/Analog_system_lab_H_Bridge/blob/main/Screenshot%202025-08-10%20190422.png)
    - Differential output (`VOUT_P - VOUT_N`)
    - Inductor current matches **average voltage / RL**
 
