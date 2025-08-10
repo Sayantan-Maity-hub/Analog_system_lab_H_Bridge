@@ -39,6 +39,7 @@ Driven by CMOS inverters and a **non-overlapping clock generator** to avoid shoo
 ## 🧪 Procedure
 
 ### 1️⃣ Simulation (Pre-Lab)
+![Diagram](https://github.com/Sayantan-Maity-hub/Analog_system_lab_H_Bridge/blob/main/Screenshot%202025-08-10%20181421.png)
 1. Build the complete Class-D amplifier circuit in LTspice using:
    - PWM outputs (`VPWM_P` and `VPWM_N`) from Experiment 2
    - Two half-bridge drivers (Figure 4 in lab manual)
