@@ -52,6 +52,7 @@ Driven by CMOS inverters and a **non-overlapping clock generator** to avoid shoo
 ---
 
 ### 2️⃣ Hardware Steps
+![image](https://github.com/Sayantan-Maity-hub/Analog_system_lab_H_Bridge/blob/main/23F3000182_Week%203.jpg)
 1. **Set Up**  
    - VDD = VIN = 5V  
    - Load = 32 Ω resistor (initial test)
