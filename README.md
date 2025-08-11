@@ -64,18 +64,19 @@ Driven by CMOS inverters and a **non-overlapping clock generator** to avoid shoo
 
 3. **Measure PWM at Driver Output**
 4. Result:
-5. ![vOUT_P](https://github.com/Sayantan-Maity-hub/Analog_system_lab_H_Bridge/blob/main/Screenshot%202025-08-10%20185412.png) 
+5. ![vOUT_P](https://github.com/Sayantan-Maity-hub/Analog_system_lab_H_Bridge/blob/main/Screenshot%202025-08-10%20185412.png)
+6. ![VOUT_N](https://github.com/Sayantan-Maity-hub/Analog_system_lab_H_Bridge/blob/main/Screenshot%202025-08-10%20185444.png)
    - Observe `VOUT_P` and `VOUT_N` on oscilloscope  
    - Verify:
      - `VOUT_P` duty cycle follows `Vin_a+`
      - `VOUT_N` duty cycle is inverted (1–D)
 
-6. **Observe Filtered Output**  
+7. **Observe Filtered Output**  
    - Add RC filters to `VOUT_P` and `VOUT_N` (cutoff = 1–2 kHz)  
    - Verify the filtered waveform matches `Vin_a+` and `Vin_a-` shape  
    - Keep the load connected directly between `VOUT_P` and `VOUT_N` (filters are only for measurement)
 
-7. **Speaker Test**  
+8. **Speaker Test**  
    - Replace resistor with 32 Ω speaker  
    - Repeat tests with input frequencies: 156.25 Hz, 312.5 Hz, 625 Hz, 937.5 Hz, 1.25 kHz  
    - Vary input amplitude and note change in sound level
